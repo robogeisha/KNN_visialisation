@@ -66,13 +66,13 @@ int main() {
     InitWindow(screenWidth, screenHeight, "KNN Visualizer");
     SetTargetFPS(60);
 
-    Vector2 mousePosition = GetMousePosition();  // Get the initial mouse position
+    Vector2 mousePosition = GetMousePosition();  
 
     generateColorScheme();
     generateNewSpots();
 
     while (!WindowShouldClose()) {
-        mousePosition = GetMousePosition();  // Update the mouse position
+        mousePosition = GetMousePosition();  
 
         if (IsKeyPressed(KEY_G)) {
             generateColorScheme();

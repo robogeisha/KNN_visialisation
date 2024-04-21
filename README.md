@@ -1,9 +1,5 @@
 # KNN_visualizer
 
-My implementation of the KNN algorithm, where the classification of a
- point (in this case, the safety of a spot) is decided based on the classifications of its nearest neighbors. <3
-
-
 The predictSpotSafety function takes the current mouse position and calculates the Euclidean distance
 to each spot in the spots array.
 
